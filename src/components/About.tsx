@@ -6,7 +6,7 @@ const About = () => {
   const highlights = [
     {
       icon: Brain,
-      title: "Blockchain",
+      title: "AI/ML",
       description: "Developing production-ready AI systems using TensorFlow, PyTorch, and cloud platforms"
     },
     {
