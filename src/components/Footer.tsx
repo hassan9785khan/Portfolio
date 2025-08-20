@@ -7,9 +7,9 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com/mohdhassan", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com/in/mohdhassan", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:mohd.hassan@example.com", label: "Email" }
+    { icon: Github, href: "https://github.com/hassan9785khan", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/hassan-khan-7a97122a3", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:hassankhan49430@gmail.com", label: "Email" }
   ];
 
   return (
@@ -103,14 +103,14 @@ const Footer = () => {
             viewport={{ once: true }}
             className="flex items-center gap-2 text-gray-400 text-sm"
           >
-            <span>© 2024 Mohd Hassan Khan. Made with</span>
+            <span>© 2025 Mohd Hassan Khan.</span>
             <motion.div
               animate={{ scale: [1, 1.2, 1] }}
               transition={{ duration: 1, repeat: Infinity }}
             >
               <Heart className="w-4 h-4 text-red-500 fill-current" />
             </motion.div>
-            <span>and cutting-edge tech</span>
+            <span></span>
           </motion.div>
           
           <motion.div

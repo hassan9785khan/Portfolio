@@ -9,21 +9,14 @@ const About = () => {
       title: "AI/ML",
       description: "Developing production-ready AI systems using TensorFlow, PyTorch, and cloud platforms"
     },
-    {
-      icon: Shield,
-      title: "Security Research",
-      description: "Advanced threat analysis, vulnerability assessment, and security architecture design"
-    },
+    
     {
       icon: Code,
-      title: "Full-Stack Development",
-      description: "End-to-end application development with modern frameworks and scalable architectures"
+      title: "Frontant Develpoment",
+      description: "Passionate Frontend Developer skilled in building responsive, user-friendly, and modern web interfaces."
     },
-    {
-      icon: Award,
-      title: "Certified Professional",
-      description: "OCI Generative AI Professional with continuous learning in emerging technologies"
-    }
+    
+      
   ];
 
   return (

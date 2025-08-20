@@ -4,40 +4,34 @@ import { Brain, Shield, Code, Cloud, BarChart3, Award } from 'lucide-react';
 const Skills = () => {
   const skillCategories = [
     {
-      title: "AI & Machine Learning",
+      title: "Python",
       icon: Brain,
       color: "from-blue-500 to-purple-600",
-      skills: ["Python", "TensorFlow", "PyTorch", "Scikit-learn", "Keras", "OpenCV", "NLTK", "spaCy", "Hugging Face", "MLflow"]
+      skills: ["Numpy", "pandas","Scikit-learn", "matplotlib","tensorflow"]
     },
     {
-      title: "Security & Research",
+      title: "Machine Learning ",
       icon: Shield,
       color: "from-red-500 to-orange-600",
-      skills: ["Penetration Testing", "Vulnerability Assessment", "OWASP", "Cryptography", "Network Security", "Threat Analysis", "Security Architecture", "Compliance"]
+      skills:["Linear Regression", "Logistic Regression", "Decision Tree", "Random Forest", "Support Vector Machine", "Naive Byes", "K-Nearest Neighbours", "Artificial Neural Network","Principal Component Analysis"]
     },
     {
-      title: "Full-Stack Development",
+      title: "Frontant Developer",
       icon: Code,
       color: "from-green-500 to-teal-600",
-      skills: ["TypeScript", "React", "Node.js", "FastAPI", "PostgreSQL", "MongoDB", "Redis", "GraphQL", "REST APIs", "Microservices"]
-    },
-    {
-      title: "Cloud & DevOps",
-      icon: Cloud,
-      color: "from-cyan-500 to-blue-600",
-      skills: ["AWS", "Azure", "Docker", "Kubernetes", "CI/CD", "Terraform", "Monitoring", "Prometheus", "Grafana", "Jenkins"]
+      skills: ["HTML","CSS","Java Script","React"]
     },
     {
       title: "Data & Analytics",
       icon: BarChart3,
       color: "from-purple-500 to-pink-600",
-      skills: ["Pandas", "NumPy", "Jupyter", "Apache Spark", "Elasticsearch", "Time Series", "Statistical Analysis", "Data Visualization", "ETL Pipelines"]
+      skills: ["Pandas", "NumPy", "SQL","Statistical Analysis", "Data Visualization", "Machine Learning Basics", "Problem-Solving", "Critical Thinking" ]
     },
     {
       title: "Certifications & Tools",
       icon: Award,
       color: "from-yellow-500 to-orange-600",
-      skills: ["OCI Generative AI Professional", "Git", "Linux", "Bash", "VS Code", "Postman", "Jira", "Agile", "Scrum"]
+      skills:[ "AWS Academy","Cisco Netacad"]
     }
   ];
 

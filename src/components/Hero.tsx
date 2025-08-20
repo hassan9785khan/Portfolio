@@ -54,21 +54,7 @@ const Hero = () => {
         ))}
       </div>
 
-      {/* Mouse follower gradient */}
-      <motion.div
-        className="absolute pointer-events-none"
-        animate={{
-          x: mousePosition.x - 250,
-          y: mousePosition.y - 250,
-        }}
-        transition={{ type: "spring", damping: 30, stiffness: 200 }}
-        style={{
-          width: 500,
-          height: 500,
-          background: 'radial-gradient(circle, rgba(16, 185, 129, 0.1) 0%, transparent 70%)',
-          borderRadius: '50%',
-        }}
-      />
+     
 
       <motion.div
         variants={containerVariants}
@@ -105,14 +91,14 @@ const Hero = () => {
             animate={{ opacity: [0.5, 1, 0.5] }}
             transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
           >
-            AI Engineer
+            AI/ML Engineer
           </motion.span>
           {" & "}
           <motion.span
             animate={{ opacity: [1, 0.5, 1] }}
             transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
           >
-            Security Researcher
+            MERN Developer
           </motion.span>
         </motion.h2>
         

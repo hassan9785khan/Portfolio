@@ -61,19 +61,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "mohd.hassan@example.com",
-      href: "mailto:mohd.hassan@example.com"
+      value: "hassankhan49430@gmail.com",
+      href: "mailto:hassankhan49430@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+91 9721908878",
+      href: "tel:+91 9721908878"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Jabalpur  Madhya Pradesh",
       href: "#"
     }
   ];
@@ -82,14 +82,14 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/mohdhassan",
-      username: "@mohdhassan"
+      href: "https://github.com/hassan9785khan",
+      username: "@hassan9785khan"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/mohdhassan",
-      username: "/in/mohdhassan"
+      href: "https://www.linkedin.com/in/hassan-khan-7a97122a3",
+      username: "Hassan"
     }
   ];
 
